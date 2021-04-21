@@ -1,0 +1,102 @@
+.footer {
+    background-color: #1F1F1F;
+    height: 410px;
+
+    &-top {
+        padding: 10rem 0 18rem 0;
+        border-bottom: 0.3px solid #3a3a3a;
+
+        &__nav {
+            height: 100%;
+            width: 100%;
+
+            &-list {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                align-items: center;
+                justify-content: center;
+
+                &-item {
+                    list-style: none;
+                    padding: 0 2rem;
+
+                    &-link {
+                        font-size: 1.6rem;
+                        color: $color-white;
+
+                    }
+                    &-link:hover {
+                        color: $color-dark;
+                        text-decoration: none;
+                        transition: all 0.4s;
+                        will-change: transition;
+                    }
+
+                }
+            }
+        }
+
+        .wrapper-link {
+            height: 100%;
+
+            
+            &-list {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                justify-content: flex-end;
+                align-items: center;
+
+                &-items {
+                    list-style: none;
+                    margin: 0 0.8rem;
+
+                    .node-play {
+                        padding: 1.4rem 1.6rem;
+                        background-color: transparent;
+                        border: 0.5px solid $color-white;
+                        border-radius: 100rem;
+                    }
+                    .node-play:hover {
+                        background-color:$color-dark;
+                        border-color: $color-dark;
+                        transition: all 0.3s;
+                        will-change: transition;
+                    }
+                }
+                &-items:last-child  {
+                    margin: 0 0 0 0.8rem;
+
+                }
+            }
+        }
+
+        &-img {
+            &-logo {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+
+    &-copyright {
+        margin-top: 2rem;
+        text-align: center;
+        &__text {
+            font-size: 1.6rem;
+            color: $color-888;
+        }
+
+        &__people {
+            
+            color: violet;
+            font-size: 1.6rem;
+        }
+        
+        
+    }
+
+
+}

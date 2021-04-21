@@ -1,0 +1,37 @@
+
+
+.button {
+    padding: 1.2rem 3rem;
+    background: $color-button;
+    border: 1px solid $color-button;
+    outline: none;
+    color: $color-white;
+    font-size: 1.6rem;
+    border-radius : 10rem;
+    user-select: none;
+    outline: none;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    background: transparent;
+    color: $color-button;
+    transition: all 0.6s linear;
+    text-decoration: none;
+
+}
+.button:focus {
+    border: none
+}
+
+a.node-play {
+    padding: 2.6rem;
+    border-radius: 100rem;
+    background: $color-dark;
+    display: inline;
+    text-align: center;
+    i {
+        color: $color-white;
+    }
+}
